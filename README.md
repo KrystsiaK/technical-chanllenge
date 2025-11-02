@@ -77,5 +77,3 @@ Application will be available at [http://localhost:3000](http://localhost:3000)
 - **UI Components**: Radix UI
 - **Testing**: Playwright 1.56
 - **Containerization**: Docker
-
-## 📁 Project Structure
