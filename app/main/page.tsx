@@ -8,7 +8,7 @@ import { Button } from '@/components/ui/button';
 
 export default function MainPage() {
     const router = useRouter();
-    const { user, isAuthenticated, isLoading } = useAuth();
+    const { isAuthenticated, isLoading } = useAuth();
 
     useEffect(() => {
         if (!isLoading && !isAuthenticated) {
@@ -40,8 +40,7 @@ export default function MainPage() {
 
             <div className="relative z-10 text-center text-white px-6 max-w-3xl">
                 <h1 className="text-3xl md:text-5xl font-bold leading-tight mb-4">
-                    1GLOBAL device and communication solutions connect your people,
-                    devices and networks instantly, anywhere, at scale
+                    Welcome to User Management Platform
                 </h1>
                 <Button
                     size="lg"
